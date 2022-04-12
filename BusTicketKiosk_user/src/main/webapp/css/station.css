@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.tabCont {
+	width: 350px;
+	padding: 20px 0 0;
+}
+
+.tabCont a {
+	text-decoration-line: none;
+}
+
+#cont_city button {
+	width: 60px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#cont_st button {
+	width: 120px;
+	height: 30px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+input {
+	display: none;
+}
+
+#cont_st button {
+	font-size:small;
+	width: 130px;
+	height: 30px;
+	display: inline-block;
+	background-color: #ccc;
+	border: 1px solid transparent;	
+	text-align: center;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+#cont_st button:checked {
+	background-color: yellow;
+}

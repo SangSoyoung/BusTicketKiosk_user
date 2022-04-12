@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+table {
+	width: 300px;
+}
+
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+
+.cnt {
+	border : 1px solid #ccc;
+}
